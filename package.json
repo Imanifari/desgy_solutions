@@ -10,7 +10,7 @@
   "export": "next export",
   "predeploy": "npm run build",
   "deploy": "touch out/.nojekyll && gh-pages -d out --dotfiles"
-}
+},
   "dependencies": {
     "@headlessui/react": "^2.1.9",
     "@heroicons/react": "^2.1.5",
