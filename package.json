@@ -2,15 +2,14 @@
   "name": "desgy",
   "version": "0.1.0",
   "private": true,
-"scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "lint": "next lint",
-  "export": "next export",
-  "predeploy": "npm run build",
-  "deploy": "touch out/.nojekyll && gh-pages -d out --dotfiles"
-},
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out --dotfiles"
+  },
   "dependencies": {
     "@headlessui/react": "^2.1.9",
     "@heroicons/react": "^2.1.5",
